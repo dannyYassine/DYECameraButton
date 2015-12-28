@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56890941C319220006A5ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890931C319220006A5ABC /* AppDelegate.swift */; };
+		B56890961C319220006A5ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890951C319220006A5ABC /* ViewController.swift */; };
+		B56890991C319220006A5ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56890971C319220006A5ABC /* Main.storyboard */; };
+		B568909B1C319220006A5ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B568909A1C319220006A5ABC /* Assets.xcassets */; };
+		B568909E1C319220006A5ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568909C1C319220006A5ABC /* LaunchScreen.storyboard */; };
+		B56890A91C319220006A5ABC /* DYECameraButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890A81C319220006A5ABC /* DYECameraButtonTests.swift */; };
+		B56890B41C319220006A5ABC /* DYECameraButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890B31C319220006A5ABC /* DYECameraButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56890A51C319220006A5ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56890881C319220006A5ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B568908F1C319220006A5ABC;
+			remoteInfo = DYECameraButton;
+		};
+		B56890B01C319220006A5ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56890881C319220006A5ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B568908F1C319220006A5ABC;
+			remoteInfo = DYECameraButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56890901C319220006A5ABC /* DYECameraButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYECameraButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56890931C319220006A5ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56890951C319220006A5ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B56890981C319220006A5ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B568909A1C319220006A5ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B568909D1C319220006A5ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B568909F1C319220006A5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56890A41C319220006A5ABC /* DYECameraButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYECameraButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56890A81C319220006A5ABC /* DYECameraButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYECameraButtonTests.swift; sourceTree = "<group>"; };
+		B56890AA1C319220006A5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56890AF1C319220006A5ABC /* DYECameraButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYECameraButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56890B31C319220006A5ABC /* DYECameraButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYECameraButtonUITests.swift; sourceTree = "<group>"; };
+		B56890B51C319220006A5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B568908D1C319220006A5ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56890A11C319220006A5ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56890AC1C319220006A5ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56890871C319220006A5ABC = {
+			isa = PBXGroup;
+			children = (
+				B56890921C319220006A5ABC /* DYECameraButton */,
+				B56890A71C319220006A5ABC /* DYECameraButtonTests */,
+				B56890B21C319220006A5ABC /* DYECameraButtonUITests */,
+				B56890911C319220006A5ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56890911C319220006A5ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56890901C319220006A5ABC /* DYECameraButton.app */,
+				B56890A41C319220006A5ABC /* DYECameraButtonTests.xctest */,
+				B56890AF1C319220006A5ABC /* DYECameraButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56890921C319220006A5ABC /* DYECameraButton */ = {
+			isa = PBXGroup;
+			children = (
+				B56890931C319220006A5ABC /* AppDelegate.swift */,
+				B56890951C319220006A5ABC /* ViewController.swift */,
+				B56890971C319220006A5ABC /* Main.storyboard */,
+				B568909A1C319220006A5ABC /* Assets.xcassets */,
+				B568909C1C319220006A5ABC /* LaunchScreen.storyboard */,
+				B568909F1C319220006A5ABC /* Info.plist */,
+			);
+			path = DYECameraButton;
+			sourceTree = "<group>";
+		};
+		B56890A71C319220006A5ABC /* DYECameraButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56890A81C319220006A5ABC /* DYECameraButtonTests.swift */,
+				B56890AA1C319220006A5ABC /* Info.plist */,
+			);
+			path = DYECameraButtonTests;
+			sourceTree = "<group>";
+		};
+		B56890B21C319220006A5ABC /* DYECameraButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B56890B31C319220006A5ABC /* DYECameraButtonUITests.swift */,
+				B56890B51C319220006A5ABC /* Info.plist */,
+			);
+			path = DYECameraButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B568908F1C319220006A5ABC /* DYECameraButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56890B81C319220006A5ABC /* Build configuration list for PBXNativeTarget "DYECameraButton" */;
+			buildPhases = (
+				B568908C1C319220006A5ABC /* Sources */,
+				B568908D1C319220006A5ABC /* Frameworks */,
+				B568908E1C319220006A5ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYECameraButton;
+			productName = DYECameraButton;
+			productReference = B56890901C319220006A5ABC /* DYECameraButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B56890A31C319220006A5ABC /* DYECameraButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56890BB1C319220006A5ABC /* Build configuration list for PBXNativeTarget "DYECameraButtonTests" */;
+			buildPhases = (
+				B56890A01C319220006A5ABC /* Sources */,
+				B56890A11C319220006A5ABC /* Frameworks */,
+				B56890A21C319220006A5ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56890A61C319220006A5ABC /* PBXTargetDependency */,
+			);
+			name = DYECameraButtonTests;
+			productName = DYECameraButtonTests;
+			productReference = B56890A41C319220006A5ABC /* DYECameraButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56890AE1C319220006A5ABC /* DYECameraButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56890BE1C319220006A5ABC /* Build configuration list for PBXNativeTarget "DYECameraButtonUITests" */;
+			buildPhases = (
+				B56890AB1C319220006A5ABC /* Sources */,
+				B56890AC1C319220006A5ABC /* Frameworks */,
+				B56890AD1C319220006A5ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56890B11C319220006A5ABC /* PBXTargetDependency */,
+			);
+			name = DYECameraButtonUITests;
+			productName = DYECameraButtonUITests;
+			productReference = B56890AF1C319220006A5ABC /* DYECameraButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56890881C319220006A5ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Danny Yassine";
+				TargetAttributes = {
+					B568908F1C319220006A5ABC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B56890A31C319220006A5ABC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B568908F1C319220006A5ABC;
+					};
+					B56890AE1C319220006A5ABC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B568908F1C319220006A5ABC;
+					};
+				};
+			};
+			buildConfigurationList = B568908B1C319220006A5ABC /* Build configuration list for PBXProject "DYECameraButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56890871C319220006A5ABC;
+			productRefGroup = B56890911C319220006A5ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B568908F1C319220006A5ABC /* DYECameraButton */,
+				B56890A31C319220006A5ABC /* DYECameraButtonTests */,
+				B56890AE1C319220006A5ABC /* DYECameraButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B568908E1C319220006A5ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B568909E1C319220006A5ABC /* LaunchScreen.storyboard in Resources */,
+				B568909B1C319220006A5ABC /* Assets.xcassets in Resources */,
+				B56890991C319220006A5ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56890A21C319220006A5ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56890AD1C319220006A5ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B568908C1C319220006A5ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56890961C319220006A5ABC /* ViewController.swift in Sources */,
+				B56890941C319220006A5ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56890A01C319220006A5ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56890A91C319220006A5ABC /* DYECameraButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56890AB1C319220006A5ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56890B41C319220006A5ABC /* DYECameraButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56890A61C319220006A5ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B568908F1C319220006A5ABC /* DYECameraButton */;
+			targetProxy = B56890A51C319220006A5ABC /* PBXContainerItemProxy */;
+		};
+		B56890B11C319220006A5ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B568908F1C319220006A5ABC /* DYECameraButton */;
+			targetProxy = B56890B01C319220006A5ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56890971C319220006A5ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56890981C319220006A5ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B568909C1C319220006A5ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B568909D1C319220006A5ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56890B61C319220006A5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56890B71C319220006A5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56890B91C319220006A5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYECameraButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannyyassine.DYECameraButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B56890BA1C319220006A5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYECameraButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannyyassine.DYECameraButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B56890BC1C319220006A5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYECameraButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannyyassine.DYECameraButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYECameraButton.app/DYECameraButton";
+			};
+			name = Debug;
+		};
+		B56890BD1C319220006A5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYECameraButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannyyassine.DYECameraButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYECameraButton.app/DYECameraButton";
+			};
+			name = Release;
+		};
+		B56890BF1C319220006A5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYECameraButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannyyassine.DYECameraButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYECameraButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B56890C01C319220006A5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYECameraButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannyyassine.DYECameraButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYECameraButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B568908B1C319220006A5ABC /* Build configuration list for PBXProject "DYECameraButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56890B61C319220006A5ABC /* Debug */,
+				B56890B71C319220006A5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56890B81C319220006A5ABC /* Build configuration list for PBXNativeTarget "DYECameraButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56890B91C319220006A5ABC /* Debug */,
+				B56890BA1C319220006A5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56890BB1C319220006A5ABC /* Build configuration list for PBXNativeTarget "DYECameraButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56890BC1C319220006A5ABC /* Debug */,
+				B56890BD1C319220006A5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B56890BE1C319220006A5ABC /* Build configuration list for PBXNativeTarget "DYECameraButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56890BF1C319220006A5ABC /* Debug */,
+				B56890C01C319220006A5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56890881C319220006A5ABC /* Project object */;
+}

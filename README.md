@@ -13,7 +13,7 @@ Press for a snapshot effect, or hold for a video recording effect
 ![](https://github.com/dannyYassine/DYECameraButton/blob/master/gif_hold.gif)
 
 # Implementation
-Add the DYECameraButton in storyboards or programmatically, then in your UIViewController class:
+Add an instance of a DYECameraButton subView in storyboards or programmatically, then in your UIViewController class:
 
     override func viewDidLoad() {
         super.viewDidLoad()

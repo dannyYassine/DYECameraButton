@@ -18,8 +18,7 @@ In your UIViewController class:
 
   override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-       
+
     // Set the duration
         self.cameraButton.duration = 3.0
   
@@ -28,8 +27,9 @@ In your UIViewController class:
         longPress.minimumPressDuration = 0.5
         longPress.allowableMovement = 1000
         self.cameraButton.addGestureRecognizer(longPress)
-        
-  }
+    }
+  
+  You could implement your own logic when to set recording or stop recording, but just call setRecording() to start and stoppedRecording() to stop recording animations.
   
     func longPressGuesture(longPress: UILongPressGestureRecognizer) {
         

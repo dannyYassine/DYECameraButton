@@ -14,9 +14,9 @@ class DYECameraButton: UIButton {
     
     var innerCircleLayer: CAShapeLayer!
     var drawingCameraPath: CAShapeLayer!
-    var duration: Double!
-    var isAnimating: Bool = false
+    var duration: Double = 4.0
     
+    var isAnimating: Bool = false
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.commonInit()

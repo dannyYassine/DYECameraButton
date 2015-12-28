@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         longPress.allowableMovement = 1000
         self.cameraButton.addGestureRecognizer(longPress)
         
+        // Determine when user has pressed the button
+        self.cameraButton.addTarget(self, action: "finishRecording", forControlEvents: .TouchUpInside)
+        
     }
     
     func longPressGuesture(longPress: UILongPressGestureRecognizer) {
@@ -33,6 +36,16 @@ class ViewController: UIViewController {
             self.cameraButton.stoppedRecording()
         }
         
+    }
+    
+    func finishRecording() {
+        if self.cameraButton.isAnimating == true {
+            // Camera was recording a movie
+            
+        } else {
+            // Camera was taking a picture
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

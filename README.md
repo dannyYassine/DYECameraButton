@@ -18,9 +18,6 @@ Add an instance of a DYECameraButton subView in storyboards or programmatically,
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    // Set the duration
-        self.cameraButton.duration = 3.0
-  
     // Set the long Gesture
         let longPress = UILongPressGestureRecognizer(target: self, action: "longPressGuesture:")
         longPress.minimumPressDuration = 0.5

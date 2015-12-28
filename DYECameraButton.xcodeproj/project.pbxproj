@@ -14,6 +14,7 @@
 		B568909E1C319220006A5ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B568909C1C319220006A5ABC /* LaunchScreen.storyboard */; };
 		B56890A91C319220006A5ABC /* DYECameraButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890A81C319220006A5ABC /* DYECameraButtonTests.swift */; };
 		B56890B41C319220006A5ABC /* DYECameraButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890B31C319220006A5ABC /* DYECameraButtonUITests.swift */; };
+		B56890C21C3192AF006A5ABC /* DYECameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56890C11C3192AF006A5ABC /* DYECameraButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B56890AF1C319220006A5ABC /* DYECameraButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYECameraButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56890B31C319220006A5ABC /* DYECameraButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYECameraButtonUITests.swift; sourceTree = "<group>"; };
 		B56890B51C319220006A5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56890C11C3192AF006A5ABC /* DYECameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYECameraButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B568909A1C319220006A5ABC /* Assets.xcassets */,
 				B568909C1C319220006A5ABC /* LaunchScreen.storyboard */,
 				B568909F1C319220006A5ABC /* Info.plist */,
+				B56890C11C3192AF006A5ABC /* DYECameraButton.swift */,
 			);
 			path = DYECameraButton;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56890961C319220006A5ABC /* ViewController.swift in Sources */,
+				B56890C21C3192AF006A5ABC /* DYECameraButton.swift in Sources */,
 				B56890941C319220006A5ABC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

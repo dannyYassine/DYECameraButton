@@ -14,6 +14,13 @@ class DYECameraButton: UIButton {
     
     var innerCircleLayer: CAShapeLayer!
     var drawingCameraPath: CAShapeLayer!
+    
+    // Custom Properties
+    var outterRingColor: UIColor = UIColor.whiteColor()
+    var animatingRingColor: UIColor = UIColor.redColor()
+    var innerCirleColor: UIColor = UIColor.redColor()
+    var backgroundCircleColor: UIColor = UIColor(white: 1.0, alpha: 0.4)
+    
     var duration: Double = 4.0
     
     var isAnimating: Bool = false
@@ -31,7 +38,7 @@ class DYECameraButton: UIButton {
         self.setTitle("", forState: .Normal)
         
         self.innerCircleLayer = CAShapeLayer()
-        self.innerCircleLayer.backgroundColor = UIColor.redColor().CGColor
+        self.innerCircleLayer.backgroundColor = self.innerCirleColor.CGColor
         self.innerCircleLayer.frame = CGRectMake(20, 20, self.frame.width  - 40, self.frame.height - 40)
         self.innerCircleLayer.cornerRadius = 25.0
         self.layer.addSublayer(self.innerCircleLayer)
@@ -50,12 +57,12 @@ class DYECameraButton: UIButton {
         ringShapeLayer.path = bezierArc.CGPath
         ringShapeLayer.lineCap = kCALineCapRound
         ringShapeLayer.fillColor = UIColor.clearColor().CGColor
-        ringShapeLayer.strokeColor = UIColor.whiteColor().CGColor
+        ringShapeLayer.strokeColor = self.outterRingColor.CGColor
         ringShapeLayer.lineWidth = 6.0
         self.layer.addSublayer(ringShapeLayer)
         
         
-        self.backgroundColor = UIColor(white: 1.0, alpha: 0.4)
+        self.backgroundColor = self.backgroundCircleColor
     }
     
     
@@ -79,7 +86,7 @@ class DYECameraButton: UIButton {
         self.drawingCameraPath.path = bezierArc.CGPath
         self.drawingCameraPath.lineCap = kCALineCapSquare
         self.drawingCameraPath.fillColor = UIColor.clearColor().CGColor
-        self.drawingCameraPath.strokeColor = UIColor.redColor().CGColor
+        self.drawingCameraPath.strokeColor = self.animatingRingColor.CGColor
         self.drawingCameraPath.lineWidth = 6.0
         self.layer.addSublayer(self.drawingCameraPath)
         

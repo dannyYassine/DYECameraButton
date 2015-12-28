@@ -13,10 +13,9 @@ Press for a snapshot effect, or hold for a video recording effect
 ![](https://github.com/dannyYassine/DYECameraButton/blob/master/gif_hold.gif)
 
 # Implementation
+Add the DYECameraButton in storyboards or programmatically, then in your UIViewController class:
 
-In your UIViewController class:
-
-  override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
     // Set the duration
@@ -26,6 +25,7 @@ In your UIViewController class:
         let longPress = UILongPressGestureRecognizer(target: self, action: "longPressGuesture:")
         longPress.minimumPressDuration = 0.5
         longPress.allowableMovement = 1000
+        
         self.cameraButton.addGestureRecognizer(longPress)
     }
   

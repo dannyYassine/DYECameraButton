@@ -55,3 +55,11 @@ That method will check if your were recording a movie (pressing and holding) or 
             
         }
     }
+    
+# Custom Properties
+
+    self.cameraButton.duration = 5.0
+    self.cameraButton.outterRingColor = UIColor.whiteColor()
+    self.cameraButton.animatingRingColor = UIColor.redColor()
+    self.cameraButton.innerCirleColor = UIColor.redColor()
+    self.cameraButton.backgroundCircleColor = UIColor(white: 1.0, alpha: 0.4)

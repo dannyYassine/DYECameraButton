@@ -40,3 +40,21 @@ Add an instance of a DYECameraButton subView in storyboards or programmatically,
         }
         
     }
+    
+# Determine when the user was holding or pressing the button
+Register a target for an TouchUpInside for the button
+
+    // Determine when user has pressed the button
+        self.cameraButton.addTarget(self, action: "finishRecording", forControlEvents: .TouchUpInside)
+        
+That method will check if your were recording a movie (pressing and holding) or taking a picture (pressing only)
+
+    func finishRecording() {
+        if self.cameraButton.isAnimating == true {
+            // Camera was recording a movie
+            
+        } else {
+            // Camera was taking a picture
+            
+        }
+    }

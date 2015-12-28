@@ -17,9 +17,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // Set the duration
-        self.cameraButton.duration = 8.0
+        self.cameraButton.duration = 3.0
         let longPress = UILongPressGestureRecognizer(target: self, action: "longPressGuesture:")
-        longPress.minimumPressDuration = 1.0
+        longPress.minimumPressDuration = 0.5
         longPress.allowableMovement = 1000
         self.cameraButton.addGestureRecognizer(longPress)
         
